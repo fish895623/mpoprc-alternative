@@ -11,6 +11,7 @@ class ParseSettings {
   void Hello();
 
  public:
-  static int Parse(const std::string&);
+  int Parse();
+  int Parse(const std::string&);
 };
 }  // namespace io::github::fish895623::email

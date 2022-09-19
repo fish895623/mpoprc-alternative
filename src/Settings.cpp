@@ -12,6 +12,13 @@ ParseSettings::Hello() {
 }
 
 int
+ParseSettings::Parse() {
+  std::string str;
+
+  ParseSettings::Parse(str);
+}
+
+int
 ParseSettings::Parse(const std::string& str) {
   Json::Reader reader;
   Json::Value root;
